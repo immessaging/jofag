@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 0em;
+}
+body{
+    color: brown;
+    background-color: rgb(253, 251, 136);
+    display: grid;
+    height: 100vh;
+   width: 100vw;
+    
+}
+
+.secondary-school {
+    width: 100vw;
+    border: 1px solid black ;
+    box-shadow: 1px 1px 2px black;
+    position: absolute;
+    margin-top: 0em;
+    top:1px;
+    margin-left: 0em;
+
+}
+
+.school-name {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    text-shadow: 3px 2px 2px black;
+    text-align: center;
+    text-shadow: 3px 2px 7px black;
+    text-shadow: 3px 2px 2px black;
+    text-shadow: 3px 2px 2px black;
+    text-shadow: 3px 2px 2px black;
+    text-shadow: 3px 2px 2px black;
+    text-shadow: 3px 2px 7px black;
+    text-shadow: 3px 2px 7px black;
+    
+    
+
+
+}
+.jofag-address {
+    text-align: center;
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.7em;
+    text-shadow: 3px 2px 7px brown;
+    padding: 0em;
+    font-style: italic;
+    margin-bottom: 0em;
+    margin: 0em;
+   
+    
+}
+
+
+.school-contact {
+   
+    color: black;
+    font-size: 1.6em;
+    display: inline;
+    text-align: left;
+    justify-content: space-between;
+    margin-left: 0.4em;
+    margin-bottom: 0.7em;
+    text-shadow: 3px 2px 7px black; 
+    position: absolute;
+    top: 5.8em;
+    
+}
+
+.tel{
+    display: inline;
+    text-align: end;
+    color: black;
+    float: right;
+    margin-right: 1.0em;
+    font-size: 1.6em;
+    margin-bottom: 0.7em;
+    text-shadow: 3px 2px 7px black;
+    margin-top: 0.37em; 
+}
+.outer-container {
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 0 0 8px 0 black;
+    background-color: brown;
+    position: relative;
+    margin-top: 10%;
+    top:70px;
+}
+.inner-container {
+    background-color:  rgb(253, 251, 136);
+    width: 95vw;
+    height: 15vh;
+    box-shadow: 0 0 8px 0 black;
+    position: absolute;
+    top:20px;
+    left:20px;
+
+
+
+}
+    
+    
+nav{
+    
+align-items:center;
+display:flex;
+Justify-content:space-between;
+padding-top:40px;
+padding-right:10px;
+padding-left:10px;
+
+margin-top: 0px;
+text-align: center;
+}
+nav ul li {
+    
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px;
+        text-shadow: -2px 1px 8px .7 black;
+    
+
+       }
+       nav ul li a{
+        text-decoration: none;
+        color: brown;
+        font-weight: bold;
+        padding: 0; 
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        margin-bottom: 20px;
+       }
+    
+    nav ul li a:hover{
+        transform: rotate(2turn);
+        color: goldenrod;
+        font-size: 22px;
+        padding: 0px;
+       
+        
+    }
+
+    .head-tag {
+        width: 90vw;
+        height: 100vh;
+        border: 3px solid goldenrod;
+        background: black;
+        margin-top: 10px;
+       display: flex;
+       align-items: center;
+      justify-items: center;
+      background-size: cover;
+    box-shadow: 7px 14px 21px black;
+    position: absolute;
+    left: 50px;
+    right:50px;
+   top:21em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    }
+
+.well{
+    border: 3px outset black;
+        position: absolute;
+        left:5%;
+        right:40%;
+        bottom: 50%;
+        top: 2%;
+        box-shadow: 7px 7px 21px goldenrod;
+        background-color: brown;
+        color: rgb(253, 251, 136);
+        box-shadow: 7px 7px 21px goldenrod;
+        box-shadow: 7px 7px 21px goldenrod;
+        margin-top: 1%;
+        height: 70vh;
+        padding: 14px;
+}
+.study-image{
+    border: 3px outset black;
+    position: absolute;
+    left:62%;
+    right:4%;
+    bottom: 50%;
+    top: 2%;
+    box-shadow: 7px 7px 21px goldenrod;
+    background-color: brown;
+    color: rgb(253, 251, 136);
+    box-shadow: 7px 7px 21px goldenrod;
+    box-shadow: 7px 7px 21px goldenrod;
+    margin-top: 5%;
+    height: 70vh;
+    text-align:center;
+    margin-top: 1%;
+    
+
+}
+.jofag-logo img {
+    margin-top: 50px;
+    place-content: center;
+}
+.welcome {
+    text-align: center;
+}
+.motto {
+    font-size: 28px;
+    font-style: italic;
+    margin-top: 0px;
+   
+}
+.call {
+    font-size: 20px;
+    text-align: center;
+}
+.actnow {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.action{
+    border: 1px solid  red;
+    text-decoration: none;
+    border-radius: 35px;
+    color: white;
+    width: 75px;
+    height: 21px;
+    background-color: rgb(247, 20, 20);
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-left: 230px;
+    margin-top: 50px;
+   
+}
+
+.main {
+    width: 100vw;
+    height: 70vh;
+    background: gray;
+    margin-top: 30px;
+   display: flex;
+   align-items: center;
+  justify-items: center;
+  background-size: cover;
+box-shadow: 7px 14px 21px black;
+margin-top: 10%;
+
+}
+.one {
+    border: 3px solid white;
+    background: green;
+   display: block;
+   float: left;
+box-shadow: 14px 14px 21px white;
+position: absolute;
+top: 50%;
+bottom: 5%;
+right: 50%;
+padding: 14px;
+margin-left: 20px;
+
+}
+
+.inner {
+    border: 3px outset black;
+    position: absolute;
+    top: 40%;
+    left:20%;
+    right:20%;
+    padding: 20px;
+    height:45vh ;
+    box-shadow: 7px 7px 21px goldenrod;
+    background-color: goldenrod;
+    box-shadow: 7px 7px 21px goldenrod;
+    box-shadow: 7px 7px 21px goldenrod;
+    
+    
+
+
+}
+
+.form {
+    align-items: center;
+
+    border: 3px solid white;
+    background: green;
+   display: block;
+box-shadow: 10px 10px 21px white;
+float: right;
+position: down;
+left: 53%;
+top: 5%;
+bottom: 5%;
+margin-right: 20px;
+padding: 14px;
+
+}
+.center{
+    text-align: left;
+}
+.subscribe{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin: 0em;
+}
+.legend {
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 25px;
+margin: 0em;
+    padding: 0em;
+}
+fieldset{
+    background-color: goldenrod;
+}
+.tit {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+    font-display: swap;
+}
+.center {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+.fill1 {
+     height: 2.5em;
+     width: 21em;
+     margin-top: 0px;
+}
+.fill2 {
+    height: 2.5em;
+    width: 21em;
+    margin-top: 0px;
+}
+
+.fill3 {
+height: 2.5em;
+width: 21em;
+margin-top: 0px;
+}
+.submit{
+border:1px  solid whitesmoke;
+border-radius: 33px;
+background-color: goldenrod;
+width: 6.3em;
+height: 2.7em;
+color: green;
+padding: 0em;
+font-size: 1.3em;
+font-weight: bolder;
+text-transform: uppercase;
+cursor: grab;
+
+}
+
+.submit:hover {
+color: white;
+background-color: aqua;
+border: none;
+cursor: pointer;
+
+}
+
+.foot {
+    background-color: black;
+}
+
+.login {
+    border: i solid black;
+   
+    list-style-type: none;
+    text-decoration: none;
+    position: absolute;
+    top: 100em;
+    
+}
+.login a {
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: right;
+    display: inline;
+    height: 100vh;
+}
